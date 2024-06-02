@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="polytechnic_university_of_the_philippines_logo.png">
+    <title>NALLRC | Student Sign in</title>
+    <link rel="stylesheet" href="sign-in-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="frame">
+            <img src="polytechnic_university_of_the_philippines_logo.png" alt="PUP Logo">
+            <h3>Sign in to start your session</h3>
+            <!--change the required, min and max length to js-->
+            <input class="student-number" type="text" placeholder="Employee ID" required maxlength="15"/>
+            <input class="password" type="password" placeholder="Password" required/>
+            <!--add js to enable sign in when enter is clicked
+                create a function in js to check if the login credentials are correct and if true then
+                continue to the site, else notify the user that their input is incorrect (maybe a pop-up?)-->
+            <input class="cmdSignIn" type="submit" value="Sign in"/>
+            <!--use js to send an otp to the email add of the user to login temporarily
+                user can only change the password when logged in through their account setting-->
+            <input class="cmdForgotPass" type="button" value="I forgot my password"/>
+            <h5>Click here to <a href="sign-up-faculty.html">Sign up</a></h5>
+            <h6>By using this service, you understood and agree to the PUP Online Services 
+                <a href = "https://www.pup.edu.ph/terms/">Terms of Use</a> and 
+                <a href="https://www.pup.edu.ph/privacy/">Privacy Statement</a></h6>
+        </div>
+    </div>
+</body>
+</html>

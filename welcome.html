@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="polytechnic_university_of_the_philippines_logo.png">
+    <title>Ninoy Aquino Library and Learning Resources Center</title>
+    <link rel="stylesheet" href="welcome-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="frame">
+            <img src="polytechnic_university_of_the_philippines_logo.png" alt="PUP Logo">
+            <h2>Welcome!</h2>
+            <h3>Please click or tap your destination.</h3>
+            <button class="student" onclick="openSignIn('student')">Student</button>
+            <button class="faculty" onclick="openSignIn('faculty')">Faculty</button>
+            <h6>By using this service, you understood and agree to the PUP Online Services 
+                <a href = "https://www.pup.edu.ph/terms/">Terms of Use</a> and 
+                <a href="https://www.pup.edu.ph/privacy/">Privacy Statement</a></h6>
+        </div>
+    </div>
+    <script>
+        function openSignIn(strUserType) {
+            if (strUserType == 'student')
+                window.location.href = "sign-in-student.html";
+            else if (strUserType == 'faculty')
+                window.location.href = "sign-in-faculty.html";
+        }
+    </script>
+</body>
+</html>

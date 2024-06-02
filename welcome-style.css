@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body {
+    background-image: url('pup_mabini_campus,_nallrc.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.5);
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    padding: .1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame {
+    background-color: #800000;
+    width: 75%;
+    height: 60%;
+    border-radius: 19px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    margin-top: 5%;
+    width: 15vh;
+    height: 15vh;
+}
+
+.container .frame h2 {
+    font-size: 3.5vh;
+    color: #FFDF00;
+    padding: 1px;
+}
+
+.container .frame h3 {
+    margin-top: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    font-weight: 300;
+    font-size: 2.3vh;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.student {
+    background-color: #000000;
+    border: none;
+    padding: 2%;
+    width: 78%;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 3.2vh;
+    letter-spacing: 2px;
+}
+
+.student:hover {
+    background-color: #808B96;
+}
+  
+.student:active {
+    background-color: #566573;
+}
+
+.faculty {
+    margin-top: 3.5%;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 2%;
+    width: 78%;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 3.2vh;
+    letter-spacing: 2px;
+    font-weight: 550;
+}
+
+.faculty:hover {
+    background-color: #85929E;
+}
+  
+.faculty:active {
+    background-color: #5D6D7E;
+}
+
+.container .frame h6 {
+    font-weight: 300;
+    font-size: 1.8vh;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 5% 10%;
+}
+
+.container .frame a:link {
+    color: #FFDF00;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+.container .frame a:visited {
+    color: #FF8A65;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+.container .frame a:hover {
+    color: #4FC3F7;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+.container .frame a:active {
+    color: #DCEDC8;
+    background-color: transparent;
+    text-decoration: underline;
+}
