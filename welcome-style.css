@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-.container {
+.shpContainer {
     background: rgba(255, 255, 255, 0.5);
     width: 35%;
     height: 100vh;
@@ -20,7 +20,7 @@ body {
     justify-content: center;
 }
 
-.frame {
+.shpFrame {
     background-color: #800000;
     width: 75%;
     height: 60%;
@@ -38,13 +38,13 @@ img {
     height: 15vh;
 }
 
-.container .frame h2 {
+.shpContainer .shpFrame h2 {
     font-size: 3.5vh;
     color: #FFDF00;
     padding: 1px;
 }
 
-.container .frame h3 {
+.shpContainer .shpFrame h3 {
     margin-top: 1px;
     margin-left: 10%;
     margin-right: 10%;
@@ -55,7 +55,7 @@ img {
     text-align: center;
 }
 
-.student {
+#cmdStudent {
     background-color: #000000;
     border: none;
     padding: 2%;
@@ -64,17 +64,18 @@ img {
     color: #FFFFFF;
     font-size: 3.2vh;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
-.student:hover {
+#cmdStudent:hover {
     background-color: #808B96;
 }
   
-.student:active {
+#cmdStudent:active {
     background-color: #566573;
 }
 
-.faculty {
+#cmdFaculty {
     margin-top: 3.5%;
     background-color: #FFFFFF;
     border: none;
@@ -85,17 +86,18 @@ img {
     font-size: 3.2vh;
     letter-spacing: 2px;
     font-weight: 550;
+    cursor: pointer;
 }
 
-.faculty:hover {
+#cmdFaculty:hover {
     background-color: #85929E;
 }
   
-.faculty:active {
+#cmdFaculty:active {
     background-color: #5D6D7E;
 }
 
-.container .frame h6 {
+.shpContainer .shpFrame h6 {
     font-weight: 300;
     font-size: 1.8vh;
     color: #FFFFFF;
@@ -103,25 +105,25 @@ img {
     margin: 5% 10%;
 }
 
-.container .frame a:link {
+.shpContainer .shpFrame a:link {
     color: #FFDF00;
     background-color: transparent;
     text-decoration: none;
 }
   
-.container .frame a:visited {
+.shpContainer .shpFrame a:visited {
     color: #FF8A65;
     background-color: transparent;
     text-decoration: none;
 }
   
-.container .frame a:hover {
+.shpContainer .shpFrame a:hover {
     color: #4FC3F7;
     background-color: transparent;
     text-decoration: underline;
 }
   
-.container .frame a:active {
+.shpContainer .shpFrame a:active {
     color: #DCEDC8;
     background-color: transparent;
     text-decoration: underline;
