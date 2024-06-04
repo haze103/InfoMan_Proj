@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="shpContainer">
-        <div class="shpFrame">
+        <div class="secFrame">
             <img src="polytechnic_university_of_the_philippines_logo.png" alt="PUP Logo">
             <h2>Welcome!</h2>
             <h3>Please click or tap your destination.</h3>
@@ -22,9 +22,9 @@
     </div>
     <script>
         function openSignIn(strUserType) {
-            if (strUserType == 'student')
+            if (strUserType === 'student')
                 window.location.href = "sign-in-student.html";
-            else if (strUserType == 'faculty')
+            else if (strUserType === 'faculty')
                 window.location.href = "sign-in-faculty.html";
         }
     </script>

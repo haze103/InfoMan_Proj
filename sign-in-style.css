@@ -20,7 +20,7 @@ body {
     justify-content: center;
 }
 
-.shpFrame {
+.secFrame {
     background-color: #800000;
     width: 75%;
     height: 75%;
@@ -38,7 +38,7 @@ img {
     height: 15vh;
 }
 
-.shpContainer .shpFrame h3 {
+.shpContainer .secFrame h3 {
     margin: 5% 10%;
     font-weight: 300;
     font-size: 2.3vh;
@@ -101,7 +101,7 @@ img {
     background-color: transparent;
 }
 
-.shpContainer .shpFrame h5 {
+.shpContainer .secFrame h5 {
     font-weight: 300;
     font-size: 2.2vh;
     color: #FFFFFF;
@@ -109,7 +109,7 @@ img {
     margin: 2% 10%;
 }
 
-.shpContainer .shpFrame h6 {
+.shpContainer .secFrame h6 {
     font-weight: 300;
     font-size: 1.8vh;
     color: #FFFFFF;
@@ -117,31 +117,31 @@ img {
     margin: 2% 10%;
 }
 
-.shpContainer .shpFrame a:link {
+.shpContainer .secFrame a:link {
     color: #FFDF00;
     background-color: transparent;
     text-decoration: none;
 }
   
-.shpContainer .shpFrame a:visited {
+.shpContainer .secFrame a:visited {
     color: #FF8A65;
     background-color: transparent;
     text-decoration: none;
 }
   
-.shpContainer .shpFrame a:hover {
+.shpContainer .secFrame a:hover {
     color: #4FC3F7;
     background-color: transparent;
     text-decoration: underline;
 }
   
-.shpContainer .shpFrame a:active {
+.shpContainer .secFrame a:active {
     color: #DCEDC8;
     background-color: transparent;
     text-decoration: underline;
 }
 
-.shpPopup {
+.fsubPopup {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -149,12 +149,17 @@ img {
     width: 38%;
     padding: 20px 30px;
     background: #D9D9D9;
-    display: flex;
+    display: none;
     flex-direction: column;
     border-radius: 19px;
 }
 
-.shpPopup #cmdClose {
+.disabled {
+    pointer-events: none; /* Disables mouse clicks and other events */
+}
+  
+
+.fsubPopup #cmdClose {
     position: absolute;
     margin-top: 5px;
     right: 20px;
@@ -163,7 +168,7 @@ img {
     cursor: pointer;
 }
 
-.shpPopup h2 {
+.fsubPopup h2 {
     margin: 8% 8%;
     font-size: 4.5vh;
     text-align: center;

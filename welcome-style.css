@@ -20,7 +20,7 @@ body {
     justify-content: center;
 }
 
-.shpFrame {
+.secFrame {
     background-color: #800000;
     width: 75%;
     height: 60%;
@@ -38,13 +38,13 @@ img {
     height: 15vh;
 }
 
-.shpContainer .shpFrame h2 {
+.shpContainer .secFrame h2 {
     font-size: 3.5vh;
     color: #FFDF00;
     padding: 1px;
 }
 
-.shpContainer .shpFrame h3 {
+.shpContainer .secFrame h3 {
     margin-top: 1px;
     margin-left: 10%;
     margin-right: 10%;
@@ -97,7 +97,7 @@ img {
     background-color: #5D6D7E;
 }
 
-.shpContainer .shpFrame h6 {
+.shpContainer .secFrame h6 {
     font-weight: 300;
     font-size: 1.8vh;
     color: #FFFFFF;
@@ -105,25 +105,25 @@ img {
     margin: 5% 10%;
 }
 
-.shpContainer .shpFrame a:link {
+.shpContainer .secFrame a:link {
     color: #FFDF00;
     background-color: transparent;
     text-decoration: none;
 }
   
-.shpContainer .shpFrame a:visited {
+.shpContainer .secFrame a:visited {
     color: #FF8A65;
     background-color: transparent;
     text-decoration: none;
 }
   
-.shpContainer .shpFrame a:hover {
+.shpContainer .secFrame a:hover {
     color: #4FC3F7;
     background-color: transparent;
     text-decoration: underline;
 }
   
-.shpContainer .shpFrame a:active {
+.shpContainer .secFrame a:active {
     color: #DCEDC8;
     background-color: transparent;
     text-decoration: underline;
