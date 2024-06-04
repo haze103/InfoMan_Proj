@@ -7,22 +7,20 @@
     <title>NALLRC | Faculty Sign in</title>
     <link rel="stylesheet" href="sign-in-style.css">
     <script src="sign-in-script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
     <div class="shpContainer">
         <div class="secFrame">
             <img src="polytechnic_university_of_the_philippines_logo.png" alt="PUP Logo">
             <h3>Sign in to start your session</h3>
-            <!--change the required, min and max length to js-->
             <input id="txtUniqueIdentifier" type="text" placeholder="Employee ID" required maxlength="15"/>
             <input id="txtPassword" type="password" placeholder="Password" required/>
-            <!--add js to enable sign in when enter is clicked
-                create a function in js to check if the login credentials are correct and if true then
+            <!--create a function in js to check if the login credentials are correct and if true then
                 continue to the site, else notify the user that their input is incorrect (maybe a pop-up?)-->
             <button class="cmdSignIn" onclick="checkLoginCreds('faculty')">Sign In</button>
             <!--use js to send an otp to the email add of the user to login temporarily
                 user can only change the password when logged in through their account setting-->
-            <!--create a js function for the popup-->
             <button class="cmdForgotPass" onclick="showPopup()">I forgot my password</button>
             <h5>Click here to <a href="sign-up-faculty.html">Sign up</a></h5>
             <h6>By using this service, you understood and agree to the PUP Online Services 
@@ -30,8 +28,6 @@
                 <a href="https://www.pup.edu.ph/privacy/">Privacy Statement</a></h6>
         </div>
     </div>
-    <!--remember to disable the other functions when thin button is clicked and enables them when cmdClose 
-        is clicked-->
     <div class="fsubPopup">
         <img id="cmdClose" src="xmark-solid.svg" onclick="closePopup()">
         <h2>Enter Verification Code</h2>

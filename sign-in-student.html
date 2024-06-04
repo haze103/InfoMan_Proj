@@ -7,6 +7,7 @@
     <title>NALLRC | Student Sign in</title>
     <link rel="stylesheet" href="sign-in-style.css">
     <script src="sign-in-script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
     <div class="shpContainer">
@@ -15,13 +16,11 @@
             <h3>Sign in to start your session</h3>
             <input id="txtUniqueIdentifier" type="text" placeholder="Student Number" required maxlength="15"/>
             <input id="txtPassword" type="password" placeholder="Password" required/>
-            <!--add js to enable sign in when enter is clicked
-                create a function in js to check if the login credentials are correct and if true then
+            <!--create a function in js to check if the login credentials are correct and if true then
                 continue to the site, else notify the user that their input is incorrect (maybe a pop-up?)-->
             <button class="cmdSignIn" onclick="checkLoginCreds('student')">Sign In</button>
             <!--use js to send an otp to the email add of the user to login temporarily
                 user can only change the password when logged in through their account setting-->
-            <!--create a js function for the popup-->
             <button class="cmdForgotPass" onclick="showPopup()">I forgot my password</button>
             <h5>Click here to <a href="sign-up-students.html">Sign up</a></h5>
             <h6>By using this service, you understood and agree to the PUP Online Services 
